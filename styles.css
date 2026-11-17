@@ -232,6 +232,9 @@ p { margin: 0 0 1em; }
 .enquiry input:focus, .enquiry textarea:focus { outline: 2px solid var(--blue); outline-offset: 1px; border-color: var(--blue); }
 .enquiry textarea { resize: vertical; }
 .enquiry .btn { width: 100%; margin-top: 4px; }
+.enquiry .btn:disabled { opacity: .7; cursor: wait; }
+.form-status { margin: 14px 0 0; padding: 12px 14px; border-radius: 10px; background: #fdecec; color: #8a1c1c; font-size: .92rem; }
+.form-status a { color: inherit; font-weight: 700; }
 .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .hp { position: absolute; left: -9999px; }
 
